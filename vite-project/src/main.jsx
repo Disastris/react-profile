@@ -1,5 +1,4 @@
 // import React from "react";
-// import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import ReactDOM from "react-dom/client";
@@ -24,11 +23,11 @@ const router = createBrowserRouter([
         element: <Project />,
       },
       {
-        path: "/Resume",
+        path: "/Resume", // localhost:3001/Resume
         element: <Resume />,
       },
       {
-        path: "/Contact",
+        path: "/Contact", // localhost:3001/Contact
         element: <Contact />,
       },
     ],

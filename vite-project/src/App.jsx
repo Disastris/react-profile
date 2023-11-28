@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <header className="flex justify-between p-5">
-        <h1 className="text-3xl">Logo</h1>
+        <h1 className="text-3xl">Santiago Garcia-Chavez</h1>
         <nav>
           <ul className="flex space-x-6">
             <li>
