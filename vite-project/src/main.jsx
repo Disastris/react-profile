@@ -6,6 +6,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./pages/About.jsx";
 import Project from "./pages/Project.jsx";
+import Contact from "./pages/Contact.jsx";
+import Resume from "./pages/Resume.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,14 +23,14 @@ const router = createBrowserRouter([
         path: "/Project", // localhost:3001/Project
         element: <Project />,
       },
-      // {
-      //   path: "/Resume",
-      //   element: <Resume />,
-      // },
-      // {
-      //   path: "/Contact",
-      //   element: <Contact />,
-      // },
+      {
+        path: "/Resume",
+        element: <Resume />,
+      },
+      {
+        path: "/Contact",
+        element: <Contact />,
+      },
     ],
   },
 ]);
