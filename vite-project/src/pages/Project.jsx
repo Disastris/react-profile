@@ -1,3 +1,6 @@
+import { SocialIcon } from "react-social-icons";
+import "./Project.css";
+
 function Project() {
   const Project = [
     {
@@ -35,6 +38,26 @@ function Project() {
             for each project will be found in their respective Github
             repositories. Go ahead and give them a click!
           </p>
+        </div>
+      </div>
+      <div className="projects container flex flex-start mx-auto">
+        <div className="project" id="project-1">
+          Project A
+          <div className="content">
+            <SocialIcon url="https://github.com/Disastris" network="github" />
+          </div>
+          <div className="content-description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            nobis fugit magni vero corrupti magnam mollitia cupiditate cumque
+            optio corporis ullam. Veniam, atque commodi. Officiis ratione enim
+            nihil libero tempora.
+          </div>
+        </div>
+        <div className="project" id="project-2">
+          Project B
+        </div>
+        <div className="project" id="project-3">
+          Project C
         </div>
       </div>
     </section>

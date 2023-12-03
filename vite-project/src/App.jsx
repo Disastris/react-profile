@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { Link, Outlet } from "react-router-dom";
+import { SocialIcon } from "react-social-icons";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,13 @@ function App() {
         </nav>
       </header>
       <Outlet />
+      <footer>
+        <SocialIcon url="https://github.com/Disastris" network="github" />
+        <SocialIcon
+          url="https://www.linkedin.com/in/santiago-garcia-chavez-609463179/"
+          network="linkedin"
+        />
+      </footer>
     </>
   );
 }
