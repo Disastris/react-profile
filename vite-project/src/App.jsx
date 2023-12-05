@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <header className="flex justify-between p-5">
+      <header className="bg-yellow-300 flex justify-between p-5">
         <h1 className="text-3xl">Santiago Garcia-Chavez</h1>
         <nav>
           <ul className="flex space-x-6">
@@ -28,7 +28,7 @@ function App() {
         </nav>
       </header>
       <Outlet />
-      <footer className="flex justify-center gap-16 py-5 text-gray-600">
+      <footer className="bg-yellow-300 flex justify-center gap-16 py-5 text-gray-600">
         <SocialIcon url="https://github.com/Disastris" network="github" />
         <SocialIcon
           url="https://www.linkedin.com/in/santiago-garcia-chavez-609463179/"
