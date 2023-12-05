@@ -28,7 +28,7 @@ function App() {
         </nav>
       </header>
       <Outlet />
-      <footer>
+      <footer className="flex justify-center gap-16 py-5 text-gray-600">
         <SocialIcon url="https://github.com/Disastris" network="github" />
         <SocialIcon
           url="https://www.linkedin.com/in/santiago-garcia-chavez-609463179/"

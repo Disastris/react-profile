@@ -9,7 +9,7 @@ export default function DownloadFile() {
     link.click();
   };
   return (
-    <div>
+    <div className="text-center">
       Download my:{" "}
       <button className="resume-link" onClick={createFile}>
         Resume
