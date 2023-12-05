@@ -41,23 +41,26 @@ function Project() {
         </div>
       </div>
       <div className="projects container flex flex-start mx-auto">
-        <div className="project" id="project-1">
-          Project A
+        <div className="project text-white" id="project-1">
+          Cinephile
           <div className="content">
-            <SocialIcon url="https://github.com/Disastris" network="github" />
+            <SocialIcon
+              url="https://github.com/ChaseOstien/Cinephile"
+              network="github"
+            />
           </div>
           <div className="content-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-            nobis fugit magni vero corrupti magnam mollitia cupiditate cumque
-            optio corporis ullam. Veniam, atque commodi. Officiis ratione enim
-            nihil libero tempora.
+            This is a movie application built with HTML, CSS, JavaScript, and
+            Bulma, an open source CSS framework. It uses two separate API calls,
+            one to Flixster and the other to The Open Movie Database. A
+            cinephile is "a person who is fond of" movies.
           </div>
         </div>
         <div className="project" id="project-2">
-          Project B
+          UT Bros Apparel
         </div>
         <div className="project" id="project-3">
-          Project C
+          Auctionator
         </div>
       </div>
     </section>
